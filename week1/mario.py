@@ -14,7 +14,8 @@ def print_pyramid(height):
         hashes = ('#' * (i + 1))
         print(spaces + hashes)
 
-# no print function from input in height
 def main():
     height = get_height()
     print_pyramid(height)
+
+main()
