@@ -12,11 +12,11 @@ def binary_search(nums, target):
             low = mid + 1
         return mid
     
-    def main():
-        nums = [0, 1, 2, 3, 4, 5]
-        target = 1
-        index = binary_search(nums, target)
-        print(index)
+def main():
+    nums = [0, 1, 2, 3, 4, 5]
+    target = 1
+    index = binary_search(nums, target)
+    print(index)
 
-    if __name__ == '__main__':
+if __name__ == '__main__':
         main()
