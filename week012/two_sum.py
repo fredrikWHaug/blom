@@ -1,7 +1,9 @@
 
 def two_sum(nums, target):
+    index = 0
     for i in nums:
-        for j in range(1, len(nums)):
+        index += 1
+        for j in range(index, len(nums)):
             if i + nums[j] == target:
                 return [nums.index(i), j]
 
